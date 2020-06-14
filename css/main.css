@@ -10,7 +10,7 @@ body {
 .full-width {
   margin: auto;
   overflow: auto;
-  width: 1200px
+  width: 1250px
 }
 
 .half-width {
@@ -62,7 +62,7 @@ header nav li {
 }
 
 /***** TOP SECTION *****/
-#main-image {
+#main-image img{
   border-bottom: 3px solid #77a466;
   margin-top: 0;
   padding-top: 0;
