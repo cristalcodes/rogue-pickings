@@ -150,3 +150,16 @@ header nav ul li {
 }
 
 /***** FOOTER  *****/
+footer {
+  border-top: 1px solid #dedbdc;
+  height: 80px;
+  text-align: center;
+  clear: both;
+}
+
+footer span {
+  color: #77a466;
+  font-family: Galada;
+  font-style: italic;
+  text-transform: lowercase;
+}
