@@ -19,9 +19,19 @@ body {
 }
 
 
+/***** HEADER TAGS *****/
+h3, h4 {
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #77a466;
+  font-size: 18pt;
+}
+
+
 /***** HEADER *****/
 header {
-  border-bottom: 3px solid #77a466;
   color: #77a466;
   height: 110px;
   margin: 0 auto;
@@ -50,16 +60,23 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  font-weight: bold;
-  font-size: 14pt;
+  font-weight: 700;
+  font-size: 14px;
   padding:0 10px;
   text-transform: uppercase;
 
 }
 
 /***** TOP SECTION *****/
+
 #main-image img{
   border-bottom: 3px solid #77a466;
-  margin-top: 0;
-  padding-top: 0;
+  border-top: 3px solid #77a466;
+  height: 290px;
+  width: 100%;
+}
+
+p {
+  font-size: 16pt;
+  line-height: 25px;
 }
