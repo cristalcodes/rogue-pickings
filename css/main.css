@@ -9,6 +9,7 @@ body {
 
 .full-width {
   margin: auto;
+  padding: auto;
   overflow: auto;
   width: 1240px
 }
@@ -26,21 +27,24 @@ h3, h4 {
 
 h3 {
   color: #77a466;
-  font-size: 18pt;
+  font-size: 18px;
 }
 
 
 /***** HEADER *****/
 header {
+  border-bottom: 3px solid #77a466;
   color: #77a466;
   height: 110px;
   margin: 0 auto;
 }
 
 header h1 {
+  float: left;
   font-size: 30px;
   font-weight: bold;
-  padding: 20px 0 40px;
+  margin: 0;
+  padding: 38px 0;;
   text-transform: uppercase;
 }
 
@@ -58,8 +62,8 @@ header nav ul {
   padding: 0px;
 }
 
-header nav li {
-  display: inline-block;
+header nav ul li {
+  display: inline;
   font-weight: 700;
   font-size: 14px;
   padding:0 10px;
@@ -68,15 +72,20 @@ header nav li {
 }
 
 /***** TOP SECTION *****/
+.top-section, .bottom-section {
+  /* border: 3px solid yellow; */
+  margin: 0;
+  clear: both;
+}
 
-#main-image img{
+.top-section img{
+  padding: 0;
   border-bottom: 3px solid #77a466;
-  border-top: 3px solid #77a466;
   height: 290px;
   width: 100%;
 }
 
-p {
-  font-size: 16pt;
+.top-section p {
+  font-size: 16px;
   line-height: 25px;
 }
