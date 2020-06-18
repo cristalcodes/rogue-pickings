@@ -44,7 +44,7 @@ header h1 {
   font-size: 30px;
   font-weight: bold;
   margin: 0;
-  padding: 38px 0;;
+  padding: 38px 0;
   text-transform: uppercase;
 }
 
@@ -54,7 +54,7 @@ header h1 span {
 
 header nav {
   float: right;
-  padding: 50px 0;
+  padding: 46px 0;
 }
 
 header nav ul {
@@ -73,19 +73,26 @@ header nav ul li {
 
 /***** TOP SECTION *****/
 .top-section, .bottom-section {
-  /* border: 3px solid yellow; */
   margin: 0;
   clear: both;
 }
 
-.top-section img{
-  padding: 0;
-  border-bottom: 3px solid #77a466;
-  height: 290px;
+.main-img {
+  float: left;
+  height: auto;
   width: 100%;
 }
 
-.top-section p {
+.main-img img{
+  border-bottom: 3px solid #77a466;
+}
+
+.main-text {
+  height: auto;
+  float: left;
+}
+
+.main-text p {
   font-size: 16px;
   line-height: 25px;
 }
